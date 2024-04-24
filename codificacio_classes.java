@@ -15,15 +15,15 @@ class Media {
         return this.duradaSegons;
     }
 
-    public setNom(String n) {
+    public void setNom(String n) {
         this.nom = n;
     }
 
-    public setAutor(String a) {
+    public void setAutor(String a) {
         this.autor = a;
     }
 
-    public setDurada(int d) { 
+    public void setDurada(int d) { 
         this.duradaSegons = d;
     }
 }
